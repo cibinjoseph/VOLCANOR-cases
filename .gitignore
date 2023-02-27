@@ -1,32 +1,25 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
+Results/
+build/
+bin/
 *.out
-*.app
+*.swp
+visitlog.py
+dummy*
+*.tec
+*.curve
+*.dat
+*.csv
+octave-workspace
+*.zip
+*.tar.gz
+*.phy
+*.pyc
+tools/src_plot/*.pyc
+.vsptime
+tools/*.xyz
+tools/*.vsp3
+status.txt
+*.mod
+sub.cmd
+*.err
+*.log
