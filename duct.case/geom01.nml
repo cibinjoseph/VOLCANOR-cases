@@ -23,7 +23,7 @@ geometryFile = 0
 nCamberFiles = 1
 ! Chordwise panels,nc   Spanwise panels,ns   
 nc = 20
-ns = 35
+ns = 20
 ! Near wake panels,nNwake [n]timesteps [-n]chords/revs
 nNwake = 160
 /
@@ -69,7 +69,7 @@ axisymmetrySwitch = 0
 pivotLE = 0.00
 flapHinge = 0.0
 spanwiseLiftSwitch = 0
-symmetricTau = 1
+symmetricTau = 0
 ! customTrajectorySwitch  [0]Off [1]On
 customTrajectorySwitch = 0
 ! u[m/s]    v[m/s]     w[m/s]    p[rad/s]    q[rad/s]    r[rad/s]
