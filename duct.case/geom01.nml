@@ -17,13 +17,13 @@ nb = 1
 propConvention = 0
 ! Panel discretization [1]linear [2]cosine [3]halfsine [4]tan
 spanSpacing = 1
-chordSpacing = 1
+chordSpacing = 2
 ! degengeom geometryFile from OpenVSP
 geometryFile = 0
-nCamberFiles = 0
+nCamberFiles = 1
 ! Chordwise panels,nc   Spanwise panels,ns   
-nc = 4
-ns = 50
+nc = 20
+ns = 35
 ! Near wake panels,nNwake [n]timesteps [-n]chords/revs
 nNwake = 160
 /
@@ -32,7 +32,7 @@ nNwake = 160
 ! CamberSectionLimit[r/R]  Camber filename
 ! These can also be comma seperated if nCamberFiles>1
 camberSectionLimit = 1.0
-camberFile = 0
+camberFile = t026.camber
 /
 
 &ORIENT
@@ -48,9 +48,9 @@ phiThetaPsi = 0.0, 0.0, 0.0
 
 &GEOMPARAMS
 ! Span[m]      root_cut[r/R]      chord[m]    preconeAngle[deg]
-span = 1.0
+span = 2.5
 rootcut = 0.0
-chord = 1.0
+chord = 2.0
 preconeAngle = 0.0
 ! Omega[rad/s]   X-shaftAxis     Y-shaftAxis     Z-shaftAxis
 Omega = 0.0
